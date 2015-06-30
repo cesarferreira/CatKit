@@ -7,8 +7,16 @@ Android **kit** for **cat placeholders**
 
 
 ## Usage
+
+With Density Pixels:
 ```java
 CatKit.with(context).dp(200, 200).into(targetImageView);
+```
+
+
+With Pixels:
+```java
+CatKit.with(context).px(500, 300).into(targetImageView);
 ```
 
 ## Install
@@ -17,9 +25,12 @@ CatKit.with(context).dp(200, 200).into(targetImageView);
 
 
 ```groovy
-repositories {
-    maven {
-        url "https://jitpack.io"
+allprojects {
+    repositories {
+        jcenter()
+        maven {
+            url "https://jitpack.io"
+        }
     }
 }
 ```
