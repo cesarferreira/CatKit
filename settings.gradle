@@ -1,1 +1,2 @@
-include ':catkit', ':example'
+include ':catkit'
+include ':example'
