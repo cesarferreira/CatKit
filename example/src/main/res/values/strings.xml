@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Example</string>
+    <string name="app_name">CatKit Example</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>

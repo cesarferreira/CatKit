@@ -1,8 +1,10 @@
 # CatKit
-Android **kit** for **cat placeholders**
-
 <p align="center">
-<img src="https://raw.github.com/cesarferreira/catkit/master/extras/images/catkit.png?raw=true" width="100%" />
+
+Android **kit** for **cat placeholders**
+</p>
+<p align="center">
+<img src="https://raw.github.com/cesarferreira/catkit/master/extras/images/catkit_trimmed.png?raw=true" width="100%" />
 </p>
 
 
@@ -19,9 +21,14 @@ With Pixels:
 CatKit.with(context).px(500, 300).into(targetImageView);
 ```
 
+Memory Policy:
+```java
+CatKit.with(context).dp(200, 200).memoryPolicy(MemoryPolicy.NO_CACHE).into(targetImageView);
+```
+
 ## Install
 
-**Step 1:** Add the JitPack repository to your build file
+**Step 1:** Add the JitPack repository to your main `build.gradle`
 
 
 ```groovy
@@ -39,7 +46,7 @@ allprojects {
 **Step 2:** Add the dependency in the form
 ```groovy
 dependencies {
-    compile 'com.github.cesarferreira:catkit:0.1.0'
+    compile 'com.github.cesarferreira:catkit:0.3.0'
 }
 ```
 

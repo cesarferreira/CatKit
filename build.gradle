@@ -16,7 +16,8 @@ def isReleaseBuild() {
 
 allprojects {
     group='com.cesarferreira'
-    version='0.2.0'
+    version='0.3.0'
+    
     repositories {
         jcenter()
         maven { url "https://jitpack.io" }
