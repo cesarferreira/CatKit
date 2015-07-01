@@ -1,7 +1,7 @@
 # CatKit
 <p align="center">
 
-Android **kit** for **cat placeholders**
+Android <strong>kit</strong> for <strong>cat placeholders</strong>
 </p>
 <p align="center">
 <img src="https://raw.github.com/cesarferreira/catkit/master/extras/images/catkit_logo_trimmed.png?raw=true" width="100%" />
@@ -10,7 +10,7 @@ Android **kit** for **cat placeholders**
 
 ## Usage
 
-With Density Pixels:
+With Density-independent Pixels:
 ```java
 CatKit.with(context).dp(200, 200).into(targetImageView);
 ```
