@@ -4,7 +4,7 @@
 Android **kit** for **cat placeholders**
 </p>
 <p align="center">
-<img src="https://raw.github.com/cesarferreira/catkit/master/extras/images/catkit_trimmed.png?raw=true" width="100%" />
+<img src="https://raw.github.com/cesarferreira/catkit/master/extras/images/catkit_logo_trimmed.png?raw=true" width="100%" />
 </p>
 
 
