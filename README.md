@@ -7,7 +7,6 @@ Android <strong>kit</strong> for <strong>cat placeholders</strong>
 <img src="https://raw.github.com/cesarferreira/catkit/master/extras/images/catkit_logo_trimmed.png?raw=true" width="100%" />
 </p>
 
-
 ## Usage
 
 With Density-independent Pixels:
