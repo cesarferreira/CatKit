@@ -24,6 +24,14 @@ Memory Policy:
 ```java
 CatKit.with(context).dp(200, 200).memoryPolicy(MemoryPolicy.NO_CACHE).into(targetImageView);
 ```
+## Usage with Picasso Downloader
+
+If you already use Picasso for image loading you can override the downloader to provide cat images throughout your existing app
+```java
+Picasso picasso = new Picasso.Builder(this).downloader(new CatKitDownloader(this)).build();
+picasso.load("http://dummyurl.com") //this url will be ignored by CatKitDownloader
+        .into(targetImageView);
+```
 
 ## Install
 
