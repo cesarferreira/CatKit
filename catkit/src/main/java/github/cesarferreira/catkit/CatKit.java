@@ -64,7 +64,7 @@ public class CatKit {
     }
 
     private String getUrl() {
-        return "http://lorempixel.com/" + mWidth + "/" + mHeight + "/cats";
+        return Util.getUrl(mHeight, mWidth);
     }
 
 
