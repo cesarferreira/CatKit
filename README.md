@@ -53,7 +53,7 @@ allprojects {
 **Step 2:** Add the dependency in the form
 ```groovy
 dependencies {
-    compile 'com.github.cesarferreira:catkit:0.3.0'
+    compile 'com.github.cesarferreira:catkit:-SNAPSHOT'
 }
 ```
 
