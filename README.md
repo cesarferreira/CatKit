@@ -35,25 +35,11 @@ picasso.load("http://dummyurl.com") //this url will be ignored by CatKitDownload
 
 ## Install
 
-**Step 1:** Add the JitPack repository to your main `build.gradle`
 
-
-```groovy
-allprojects {
-    repositories {
-        jcenter()
-        maven {
-            url "https://jitpack.io"
-        }
-    }
-}
-```
-
-
-**Step 2:** Add the dependency in the form
+Add the dependency to your `build.gradle`
 ```groovy
 dependencies {
-    compile 'com.github.cesarferreira:catkit:-SNAPSHOT'
+  compile 'com.cesarferreira.catkit:catkit:0.3.0'
 }
 ```
 
